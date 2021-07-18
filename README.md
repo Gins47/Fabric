@@ -169,8 +169,10 @@ peer lifecycle chaincode commit -o localhost:7050 --ordererTLSHostnameOverride o
 
 The commands above approve the chaincode definition for the external chaincode and commits the definition to the channel. The resulting output should be similar to the following:
 
+```shell
 2021-07-17 15:41:16.131 WEST [chaincodeCmd] ClientWait -> INFO 001 txid [0d9cb0a14c1d0294646af7c9f4bc9e053e53d8bb9d1ca67de56ed56e3db32cd4] committed with status (VALID) at localhost:7051
 2021-07-17 15:41:16.159 WEST [chaincodeCmd] ClientWait -> INFO 002 txid [0d9cb0a14c1d0294646af7c9f4bc9e053e53d8bb9d1ca67de56ed56e3db32cd4] committed with status (VALID) at localhost:9051
+```
 
 # Run Fabcar application
 
