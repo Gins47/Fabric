@@ -194,12 +194,12 @@ node registerUser.js
 
 I have modified the invoke.js and query.js file to use the correct chaincode. This file invokes the initLedger function of the chaincode.
 
-``shell
+```shell
 node invoke.js
-
-````
+```
 
 To get the list of all the registered car, run query.js.
+
 ```shell
 node query.js
-````
+```
