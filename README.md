@@ -4,9 +4,10 @@ Fabric v2.0 supports chaincode deployment and execution outside of Fabric that e
 
 # Running fabcar Node.js chaincode as an external service
 
-In this tutorial, I will be demonstrating
+Setting up the external builder and launcher
 
-# Start the service
+We will need to customize our peer first to enable this feature. In this tutorial, we use very simple shell scripts that can be run directly within the default Fabric peer images.
+Modify the externalBuilders field in the core.yaml file [inside config folder] to resemble the configuration below:
 
 Modify the externalBuilders field in the core.yaml file to resemble the configuration below:
 
